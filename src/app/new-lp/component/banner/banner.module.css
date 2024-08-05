@@ -1,0 +1,18 @@
+.banner {
+    background: url(../../../../../public/new-lp/banner.webp) bottom/cover no-repeat;
+    margin-top: -127px;
+    position: relative;
+}
+
+
+@media screen and (max-width: 767px) {
+   
+
+    .banner {
+        background:unset;
+        background-color: #ebebeb;
+        margin-top: -157px;
+        position: relative;
+    }
+    
+}

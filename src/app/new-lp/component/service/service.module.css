@@ -1,0 +1,123 @@
+.banner{
+    background: url(../../../../../public/new-lp/banner.webp) bottom/cover no-repeat;
+    background-position: 40%;
+    background-position: 40%;
+    margin-top: -127px;
+
+}
+.pst{
+    position: relative;
+}
+.pst:before {
+    content: '';
+    background: url(../../../../../public/new-lp/service/tabs-bg.webp);
+    position: absolute;
+    left: -7%;
+    bottom: -10%;
+    width: 112px;
+    height: 159px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.longa{
+    position: relative;
+    z-index: 1;
+}
+.longa:before {
+    content: '';
+    background: url(../../../../../public/new-lp/service/textcircle_01.webp);
+    position: absolute;
+    left: 11%;
+    right: 0;
+    margin: 0 auto;
+    bottom: 35%;
+    width: 296px;
+    height: 76px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+
+
+
+.fristhove1{
+    position: relative;
+    color: #e31c25;
+    translate: 30px 0px;
+
+}
+.fristhove2{
+    position: relative;
+    color: #e31c25;
+    margin-top: 3rem;
+    translate: 30px 0px;
+}
+.fristhove1 h3, .fristhove2 h3{
+    color: #e31c25;
+    opacity: unset;
+}
+
+
+
+.fristhove{
+
+    animation: mymove 1s ease-in-out;
+}
+
+
+@keyframes mymove {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+ 
+}
+
+
+@media screen and (max-width: 991px) {
+   
+
+    .fristhove2{
+    
+        margin-top: 1.2rem;
+       
+    }
+    
+    
+}
+@media screen and (max-width: 767px) {
+
+    .fristhove{
+        margin-bottom: 30px;
+        translate: unset;
+    }
+
+    .fristhove2{
+        translate: unset;
+        margin-bottom: 1.2rem;
+       
+    }
+    .fristhove1{
+        translate: unset;
+
+       
+    }
+
+    .pst:before{
+        display: none;
+    }
+   
+
+    .longa:before{
+        display: none;
+    }
+    
+    
+}

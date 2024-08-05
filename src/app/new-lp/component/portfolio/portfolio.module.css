@@ -1,0 +1,42 @@
+.portfolio{
+    background: url(../../../../../public/new-lp//portfolio/portfolio-bg.webp);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.longa{
+    position: relative;
+    z-index: 1;
+}
+.longa:before {
+    content: '';
+    background: url(../../../../../public/new-lp/service/textcircle_01.webp);
+    position: absolute;
+    left: 11%;
+    right: 0;
+    margin: 0 auto;
+    bottom: 35%;
+    width: 296px;
+    height: 76px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.portfolio::after {
+    content: '';
+    background: url(../../../../../public/new-lp/portfolio/tabs-bg.webp);
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    bottom: -84px;
+    width: 77px;
+    height: 159px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}

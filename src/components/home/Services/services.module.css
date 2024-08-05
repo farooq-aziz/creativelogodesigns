@@ -1,0 +1,126 @@
+.keyFrame_1 {
+    -webkit-animation: keyFrame_1_animation 14s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+    animation: keyFrame_1_animation 14s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+
+@keyframes keyFrame_1_animation {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    17% {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+
+    33% {
+        -webkit-transform: rotate(-6deg);
+        transform: rotate(-6deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg);
+    }
+
+    67% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+    }
+
+    83% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
+@-webkit-keyframes keyFrame_1_animation {
+    0% {
+        -webkit-transform: rotate(0);
+    }
+
+    17% {
+        -webkit-transform: rotate(4deg);
+    }
+
+    33% {
+        -webkit-transform: rotate(-6deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(7deg);
+    }
+
+    67% {
+        -webkit-transform: rotate(-4deg);
+    }
+
+    83% {
+        -webkit-transform: rotate(5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0);
+    }
+}
+
+/* Key Frame 2 */
+.keyFrame_2 {
+    -webkit-animation: keyFrame_2_animation 11s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+    animation: keyFrame_2_animation 11s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+
+@keyframes keyFrame_2_animation {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    25% {
+        -webkit-transform: translateY(-0.7rem);
+        transform: translateY(-0.7rem);
+    }
+
+    50% {
+        -webkit-transform: translateY(0.4rem);
+        transform: translateY(0.4rem);
+    }
+
+    75% {
+        -webkit-transform: translateY(-0.5rem);
+        transform: translateY(-0.5rem);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes keyFrame_2_animation {
+    0% {
+        -webkit-transform: translateY(0);
+    }
+
+    25% {
+        -webkit-transform: translateY(-0.7rem);
+    }
+
+    50% {
+        -webkit-transform: translateY(0.4rem);
+    }
+
+    75% {
+        -webkit-transform: translateY(-0.5rem);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}

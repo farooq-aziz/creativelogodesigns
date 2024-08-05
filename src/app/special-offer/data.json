@@ -1,0 +1,100 @@
+[
+    {
+        "id": 0,
+        "value": "logo",
+        "label": "Logo",
+        "packages": [
+            {
+                "id": 0,
+                "name": "Basic Logo",
+                "discountedPrice": "$35.00",
+                "originalPrice": "$117.00",
+                "list": [
+                    "4 Original Logo Concepts",
+                    "2 Dedicated Logo Designer",
+                    "4 Revisions",
+                    "With Grey Scale Format",
+                    "Free Icon Design",
+                    "Formats: JPEG Only",
+                    "24 - 48 Hours Turn Around Time",
+                    "MORE FEATURES",
+                    "100% Satisfaction",
+                    "100% Ownership Rights",
+                    "Money Back Guarantee",
+                    "Dedicated Account Manager"
+                ],
+                "paymentURL":"https://app.creativelogodesigns.io/creative/order/7"
+            },
+            {
+                "id": 1,
+                "name": "Logo Professional",
+                "discountedPrice": "$119.00",
+                "originalPrice": "$397.00",
+                "list": [
+                    "12 Original Logo Concepts",
+                    "4 Dedicated Logo Designer (Industry Specific)",
+                    "Unlimited Revisions",
+                    "Stationery Design (Business Card, Letterhead, Envelope)",
+                    "Email Signature Design",
+                    "With Grey Scale Format",
+                    "Free Icon Design",
+                    "Formats: JPEG, PSD, EPS, AI, PNG, TIFF, SVG",
+                    "24 - 48 Hours Turn Around Time",
+                    "MORE FEATURES",
+                    "100% Satisfaction",
+                    "100% Ownership Rights",
+                    "Money Back Guarantee",
+                    "Dedicated Account Manager"
+                ],
+                "paymentURL":"https://app.creativelogodesigns.io/creative/order/7"
+            },
+            {
+                "id": 2,
+                "name": "Logo Elite",
+                "discountedPrice": "$299.00",
+                "originalPrice": "$849.00",
+                "list": [
+                    "Unlimited Original Logo Concepts",
+                    "8 Dedicated Logo Designer (Industry Specific)",
+                    "Unlimited Revisions",
+                    "Stationery Design (Business Card, Letterhead, Envelope)",
+                    "500 Business Cards",
+                    "Email Signature Design",
+                    "With Grey Scale Format",
+                    "Free Icon Design",
+                    "Formats: JPEG, PSD, EPS, AI, PNG, TIFF, SVG",
+                    "24 - 48 Hours Turn Around Time",
+                    "MORE FEATURES",
+                    "100% Satisfaction",
+                    "Money Back Guarantee",
+                    "Dedicated Account Manager"
+                ],
+                "paymentURL":"https://app.creativelogodesigns.io/creative/order/7"
+            },
+            {
+                "id": 3,
+                "name": "The Boss",
+                "discountedPrice": "$599.00",
+                "originalPrice": "$1996.00",
+                "list": [
+                    "3D/Mascot/Animated Logo",
+                    "Unlimited Original Logo Concepts",
+                    "8 Dedicated Logo Designer (Industry Specific)",
+                    " Unlimited Revisions",
+                    "Stationery Design (Business Card, Letterhead, Envelope)",
+                    "500 Business Cards",
+                    "Email Signature Design",
+                    "With Grey Scale Format",
+                    "Free Icon Design",
+                    "Formats: JPEG, PSD, EPS, AI, PNG, TIFF, SVG",
+                    "24 - 48 Hours Turn Around Time",
+                    "MORE FEATURES",
+                    "100% Satisfaction",
+                    "Money Back Guarantee",
+                    "Dedicated Account Manager"
+                ],
+                "paymentURL":"https://app.creativelogodesigns.io/creative/order/7"
+            }
+        ]
+    }
+]

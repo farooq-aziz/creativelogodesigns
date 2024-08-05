@@ -1,0 +1,10 @@
+.box{
+    width: 142px;
+    height: 142px;
+    margin: auto auto 20px;
+    background: #f2f3f7;
+    border-radius: 100%;
+    display: flex;
+}
+
+

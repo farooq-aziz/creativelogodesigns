@@ -1,0 +1,87 @@
+.flip{
+height: 230px;
+overflow: hidden;
+}
+.newflix:hover{
+    background-color: #dd1920;
+}
+.newflix:hover h3, .newflix:hover ul li, .newflix:hover h4{
+    color: white;
+}
+.newflix:hover a{
+    background-color: white;
+    color: black;
+}
+.newflix:hover h5{
+    color: #c4c4c4;
+}
+
+.newflix:hover .flip{
+    overflow: auto;
+}
+.pricing{
+    position: relative;
+}
+.pricing:before {
+    content: '';
+
+    background: url(../../../../../public/new-lp/pricing/pricing-before.webp) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 9rem;
+    z-index: -1;
+    width: 143px;
+    height: 136px;
+}
+
+.flip:hover img{
+    filter: brightness(0) invert(1);
+}
+.longa{
+    position: relative;
+    z-index: 1;
+}
+.longa:before {
+    content: '';
+    background: url(../../../../../public/new-lp/service/textcircle_01.webp);
+    position: absolute;
+    left: 12%;
+    right: 0;
+    margin: 0 auto;
+    bottom: 35%;
+    width: 259px;
+    height: 76px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: 100%;
+}
+
+.pri h5{
+    line-height: .7;
+    position: relative;
+}
+
+.pri h5 sub:before {
+    content: '';
+    background: #010101;
+    width: 100%;
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    transform: rotate(-9deg);
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 767px) { 
+
+    .longa:before {
+      display: none;
+    }
+
+
+}

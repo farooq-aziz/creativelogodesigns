@@ -1,0 +1,55 @@
+.happy{
+    background: url(../../../../../public/new-lp/happy/testimonials-bg.webp);
+    background-position: 40%;
+    background-position: 40%;
+  
+
+}
+
+
+.longa{
+    position: relative;
+    z-index: 1;
+}
+.longa:before {
+    content: '';
+    background: url(../../../../../public/new-lp/happy/testimonials-text.webp);
+    position: absolute;
+    left: 18%;
+    right: 0;
+    margin: 0 auto;
+    bottom: 19%;
+    width: 296px;
+    height: 108px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.limpo{
+    position: relative;
+    z-index: 1;
+}
+.limpo:before {
+    content: '';
+    background: url(../../../../../public/new-lp/happy/qoite-bg.webp);
+    position: absolute;
+    left: 0%;
+    right: 0;
+    margin: 0 auto;
+    bottom: 19%;
+    width: 380px;
+    height: 292px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 991px) { 
+
+    .limpo:before {
+        display: none;
+    }
+    .longa:before{
+        display: none;
+    }
+
+}

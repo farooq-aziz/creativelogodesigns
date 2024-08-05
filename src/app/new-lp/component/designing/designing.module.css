@@ -1,0 +1,64 @@
+.designing{
+    background: url(../../../../../public/new-lp/designing/cta-bg.webp);
+    margin-top: 127px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+    text-align: center;
+    position: relative;
+    
+
+}
+
+
+.designing::before {
+    content: "";
+    position: absolute;
+    background-image: url(../../../../../public/new-lp/designing/cta-left.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 485px;
+    height: 400px;
+    left: 0;
+    top: 21px;
+    z-index: 1;
+}
+.ban{
+    position: relative;
+}
+.ban::before{
+    content: "";
+    position: absolute;
+    background-image: url(../../../../../public/new-lp/designing/cta-text.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 256px;
+    height: 7px;
+    left: 0;
+    top: 42px;
+}
+
+
+@media screen and (max-width: 1200px) {
+   
+
+    .ban::before {
+        display: none;
+    }
+    .designing::before {
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+   
+    .designing{
+       margin-top: 0;
+        
+    
+    }
+    
+}
